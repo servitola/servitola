@@ -22,10 +22,6 @@ to my hands, teach AI agents to do my chores, and play guitar.
 - `up` — one command updates 200+ apps and cleans caches
 - 60+ Claude Code skills and agents shared across Claude Code, Codex and Qwen
 
-<a href="https://github.com/servitola/dotfiles/tree/master/docs/keyboard">
-  <img src="https://raw.githubusercontent.com/servitola/dotfiles/master/docs/keyboard/hyper.svg" alt="Hyper layer of my keyboard" width="100%">
-</a>
-
 ## Fresh from my tap
 
 <!-- tap:start -->
