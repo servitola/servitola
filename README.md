@@ -35,9 +35,9 @@ to my hands, teach AI agents to do my chores, and play guitar.
 <!-- tap:start -->
 | Package | Version | What | Updated |
 | --- | --- | --- | --- |
+| [`boring-notch`](https://github.com/servitola/homebrew-tap/blob/main/Casks/boring-notch.rb) | `2.7.3-20260926.b5eeb5a` | Notch companion, personal fork built nightly from TheBoredTeam/boring.notch | 2026-09-26 |
 | [`nowplayingseek`](https://github.com/servitola/homebrew-tap/blob/main/Formula/nowplayingseek.rb) | `2026.09.20` | Seek, skip and control whatever is Now Playing on macOS | 2026-09-24 |
 | [`yt-dlp-puzzle-movies`](https://github.com/servitola/homebrew-tap/blob/main/Formula/yt-dlp-puzzle-movies.rb) | `2026.09.24.5` | Plugin for yt-dlp that downloads series and films from puzzle-movies.com | 2026-09-24 |
-| [`boring-notch`](https://github.com/servitola/homebrew-tap/blob/main/Casks/boring-notch.rb) | `2.7.3-20260922.30f6247` | Notch companion, personal fork built nightly from TheBoredTeam/boring.notch | 2026-09-22 |
 | [`zen`](https://github.com/servitola/homebrew-tap/blob/main/Casks/zen.rb) | `1.22.3b-20260920.ef2ea05` | Web browser built weekly from source with auto-update disabled | 2026-09-20 |
 | [`forkgram`](https://github.com/servitola/homebrew-tap/blob/main/Casks/forkgram.rb) | `7.2.9` | Telegram Desktop (Forkgram base) with personal patches | 2026-09-18 |
 | [`zap-terminal`](https://github.com/servitola/homebrew-tap/blob/main/Casks/zap-terminal.rb) | `0.1.0-20260905.5d87445` | Terminal with AI and agent support, open-source Warp fork, nightly build | 2026-09-18 |
