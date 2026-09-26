@@ -26,10 +26,6 @@ to my hands, teach AI agents to do my chores, and play guitar.
   <img src="https://raw.githubusercontent.com/servitola/dotfiles/master/docs/keyboard/hyper.svg" alt="Hyper layer of my keyboard" width="100%">
 </a>
 
-**🕰 Earlier**
-- [Swift-Todo](https://github.com/servitola/Swift-Todo) — 2022, my first Swift app
-- [xamarin-binding-swift-framework](https://github.com/servitola/xamarin-binding-swift-framework) · [stronginject](https://github.com/servitola/stronginject) — the .NET / Xamarin mobile years
-
 ## Fresh from my tap
 
 <!-- tap:start -->
