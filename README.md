@@ -27,14 +27,14 @@ to my hands, teach AI agents to do my chores, and play guitar.
 <!-- tap:start -->
 | Package | Version | What | Updated |
 | --- | --- | --- | --- |
+| [`eq`](https://github.com/servitola/homebrew-tap/blob/main/Casks/eq.rb) | `2026.09.27.2` | Headless per-device system equalizer, no icon, no window | 2026-09-27 |
+| [`zen`](https://github.com/servitola/homebrew-tap/blob/main/Casks/zen.rb) | `1.22.3b-20260927.ca522d4` | Web browser built weekly from source with auto-update disabled | 2026-09-27 |
 | [`boring-notch`](https://github.com/servitola/homebrew-tap/blob/main/Casks/boring-notch.rb) | `2.7.3-20260926.b5eeb5a` | Notch companion, personal fork built nightly from TheBoredTeam/boring.notch | 2026-09-26 |
+| [`voiceink`](https://github.com/servitola/homebrew-tap/blob/main/Casks/voiceink.rb) | `2.20-20260926.2beff03` | Voice to text app, personal fork built nightly from Beingpax/VoiceInk | 2026-09-26 |
+| [`yt-dlp-puzzle-movies`](https://github.com/servitola/homebrew-tap/blob/main/Formula/yt-dlp-puzzle-movies.rb) | `2026.09.26` | Plugin for yt-dlp that downloads series and films from puzzle-movies.com | 2026-09-26 |
 | [`nowplayingseek`](https://github.com/servitola/homebrew-tap/blob/main/Formula/nowplayingseek.rb) | `2026.09.20` | Seek, skip and control whatever is Now Playing on macOS | 2026-09-24 |
-| [`yt-dlp-puzzle-movies`](https://github.com/servitola/homebrew-tap/blob/main/Formula/yt-dlp-puzzle-movies.rb) | `2026.09.24.5` | Plugin for yt-dlp that downloads series and films from puzzle-movies.com | 2026-09-24 |
-| [`zen`](https://github.com/servitola/homebrew-tap/blob/main/Casks/zen.rb) | `1.22.3b-20260920.ef2ea05` | Web browser built weekly from source with auto-update disabled | 2026-09-20 |
 | [`forkgram`](https://github.com/servitola/homebrew-tap/blob/main/Casks/forkgram.rb) | `7.2.9` | Telegram Desktop (Forkgram base) with personal patches | 2026-09-18 |
 | [`zap-terminal`](https://github.com/servitola/homebrew-tap/blob/main/Casks/zap-terminal.rb) | `0.1.0-20260905.5d87445` | Terminal with AI and agent support, open-source Warp fork, nightly build | 2026-09-18 |
-| [`claude-counter`](https://github.com/servitola/homebrew-tap/blob/main/Casks/claude-counter.rb) | `1.0.0` | Menu-bar indicator of Claude.ai usage limits | 2026-09-11 |
-| [`transmission`](https://github.com/servitola/homebrew-tap/blob/main/Casks/transmission.rb) | `4.2.0-dev.20260909.4ce3894` | BitTorrent client, personal fork with native Liquid Glass UI | 2026-09-11 |
 <!-- tap:end -->
 
 <sub>Refreshed daily by a GitHub Action from [homebrew-tap](https://github.com/servitola/homebrew-tap).</sub>
