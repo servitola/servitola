@@ -11,13 +11,17 @@ to my hands, teach AI agents to do my chores, and play guitar.
 - [nowplayingseek](https://github.com/servitola/nowplayingseek) — skip ±10 s in whatever is playing, from a hotkey, a keyboard knob or a script
 - [yt-dlp-puzzle-movies](https://github.com/servitola/yt-dlp-puzzle-movies) — yt-dlp plugin
 
+**🔨 Hammerspoon Spoons**
+- [PowerWindows.spoon](https://github.com/servitola/PowerWindows.spoon) — every window in its place, one key: big window left, chat column right, video in the corner
+- [BirmanLayer.spoon](https://github.com/servitola/BirmanLayer.spoon) — Ilya Birman's typographic layer on the right Option key, over Apple's layouts
+
 **🍴 Forks I build and ship to myself**
 - [transmission](https://github.com/servitola/transmission) — Transmission with a native Liquid Glass UI for macOS 26
 - [VoiceInk](https://github.com/servitola/VoiceInk) · [boring-notch](https://github.com/servitola/boring-notch) · [zen-browser](https://github.com/servitola/zen-browser) · [zap-terminal](https://github.com/servitola/zap-terminal) — personal patches, nightly builds, auto-update off
 - [homebrew-tap](https://github.com/servitola/homebrew-tap) — all of the above as casks and formulae, signed and published by one script
 
 **🧰 [dotfiles](https://github.com/servitola/dotfiles) — living with macOS since 2020**
-- Hammerspoon spoons: URL routing between browsers, window layouts, audio switching, popup translate
+- Hammerspoon spoons: URL routing between browsers, [window layouts](https://github.com/servitola/PowerWindows.spoon), audio switching, popup translate
 - Karabiner + Hammerspoon hyper key — 24 layers, keyboard maps rendered from config
 - `up` — one command updates 200+ apps and cleans caches
 - 60+ Claude Code skills and agents shared across Claude Code, Codex and Qwen
