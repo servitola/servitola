@@ -4,6 +4,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -14,8 +15,8 @@ HIDDEN = {"glasswings"}
 LIMIT = 8
 
 
-def api(path):
-    request = urllib.request.Request(f"https://api.github.com/repos/{TAP}/{path}")
+def api(path, repo=TAP):
+    request = urllib.request.Request(f"https://api.github.com/repos/{repo}/{path}".rstrip("/"))
     request.add_header("Accept", "application/vnd.github+json")
     if token := os.environ.get("GITHUB_TOKEN"):
         request.add_header("Authorization", f"Bearer {token}")
@@ -28,6 +29,24 @@ def field(source, name):
     return match.group(1) if match else None
 
 
+def is_public(repo):
+    try:
+        return not api("", repo)["private"]
+    except urllib.error.HTTPError as error:
+        # The Actions token cannot see private repositories: they answer 404, not private=true.
+        if error.code == 404:
+            return False
+        raise
+
+
+def link(source, path):
+    for name in ("url", "homepage"):
+        repo = re.match(r"https://github\.com/([\w.-]+/[\w.-]+)", field(source, name) or "")
+        if repo and is_public(repo.group(1)):
+            return f"https://github.com/{repo.group(1)}#readme"
+    return field(source, "homepage") or f"https://github.com/{TAP}/blob/main/{path}"
+
+
 def package(entry):
     source = base64.b64decode(api(f"contents/{entry['path']}")["content"]).decode()
     version = field(source, "version")
@@ -37,7 +56,7 @@ def package(entry):
     commit = api(f"commits?path={entry['path']}&per_page=1")[0]["commit"]
     return {
         "name": entry["name"].removesuffix(".rb"),
-        "path": entry["path"],
+        "link": link(source, entry["path"]),
         "version": version,
         "desc": field(source, "desc") or "",
         "date": commit["committer"]["date"][:10],
@@ -46,7 +65,7 @@ def package(entry):
 
 def render(packages):
     rows = [
-        f"| [`{p['name']}`](https://github.com/{TAP}/blob/main/{p['path']}) "
+        f"| [`{p['name']}`]({p['link']}) "
         f"| `{p['version']}` | {p['desc']} | {p['date']} |"
         for p in packages
     ]

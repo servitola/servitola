@@ -31,14 +31,14 @@ to my hands, teach AI agents to do my chores, and play guitar.
 <!-- tap:start -->
 | Package | Version | What | Updated |
 | --- | --- | --- | --- |
-| [`claude-counter`](https://github.com/servitola/homebrew-tap/blob/main/Casks/claude-counter.rb) | `1.1.0` | Menu-bar indicator of Claude.ai usage limits | 2026-09-30 |
-| [`eq`](https://github.com/servitola/homebrew-tap/blob/main/Casks/eq.rb) | `2026.09.30.2` | Headless per-device system equalizer, no icon, no window | 2026-09-30 |
-| [`alt-tab-community`](https://github.com/servitola/homebrew-tap/blob/main/Casks/alt-tab-community.rb) | `11.8.0.1` | Windows-like alt-tab, with every former Pro feature free | 2026-09-29 |
-| [`boring-notch`](https://github.com/servitola/homebrew-tap/blob/main/Casks/boring-notch.rb) | `2.7.3-20260928.b5eeb5a` | Notch companion, personal fork built nightly from TheBoredTeam/boring.notch | 2026-09-28 |
-| [`forkgram`](https://github.com/servitola/homebrew-tap/blob/main/Casks/forkgram.rb) | `7.2.9.1` | Telegram Desktop (Forkgram base) with personal patches | 2026-09-28 |
-| [`zap-terminal`](https://github.com/servitola/homebrew-tap/blob/main/Casks/zap-terminal.rb) | `0.1.0-20260928.8954864` | Terminal with AI and agent support, open-source Warp fork, nightly build | 2026-09-27 |
-| [`zen`](https://github.com/servitola/homebrew-tap/blob/main/Casks/zen.rb) | `1.22.3b-20260927.ca522d4` | Web browser built weekly from source with auto-update disabled | 2026-09-27 |
-| [`voiceink`](https://github.com/servitola/homebrew-tap/blob/main/Casks/voiceink.rb) | `2.20-20260926.2beff03` | Voice to text app, personal fork built nightly from Beingpax/VoiceInk | 2026-09-26 |
+| [`claude-counter`](https://github.com/servitola/claude_counter#readme) | `1.2.1` | Menu-bar indicator of Claude.ai usage limits | 2026-10-01 |
+| [`forkgram`](https://github.com/forkgram/tdesktop#readme) | `7.2.10` | Telegram Desktop (Forkgram base) with personal patches | 2026-10-01 |
+| [`eq`](https://github.com/servitola/eq#readme) | `2026.09.30.3` | Headless per-device system equalizer, no icon, no window | 2026-09-30 |
+| [`alt-tab-community`](https://github.com/servitola/alt-tab-community#readme) | `11.8.0.1` | Windows-like alt-tab, with every former Pro feature free | 2026-09-29 |
+| [`boring-notch`](https://github.com/servitola/boring-notch#readme) | `2.7.3-20260928.b5eeb5a` | Notch companion, personal fork built nightly from TheBoredTeam/boring.notch | 2026-09-28 |
+| [`zap-terminal`](https://github.com/servitola/zap-terminal#readme) | `0.1.0-20260928.8954864` | Terminal with AI and agent support, open-source Warp fork, nightly build | 2026-09-27 |
+| [`zen`](https://github.com/servitola/zen-browser#readme) | `1.22.3b-20260927.ca522d4` | Web browser built weekly from source with auto-update disabled | 2026-09-27 |
+| [`voiceink`](https://github.com/servitola/VoiceInk#readme) | `2.20-20260926.2beff03` | Voice to text app, personal fork built nightly from Beingpax/VoiceInk | 2026-09-26 |
 <!-- tap:end -->
 
 <sub>Refreshed daily by a GitHub Action from [homebrew-tap](https://github.com/servitola/homebrew-tap).</sub>
