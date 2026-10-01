@@ -67,6 +67,12 @@ name = "Fresh4kWallpaper"
 repo = "Fresh4kWallpaper.spoon"
 pitch = "a new 4K wallpaper every time Hammerspoon starts; one file on disk, no GitHub token"
 
+[[group.item]]
+emoji = "🌐"
+name = "AutoKeyboardLayout"
+repo = "AutoKeyboardLayout.spoon"
+pitch = "every app gets its keyboard layout when it comes to the front; your second layout in any Telegram client"
+
 [[group]]
 title = "Forks I build and ship to myself"
 
