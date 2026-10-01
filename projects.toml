@@ -73,6 +73,12 @@ name = "AutoKeyboardLayout"
 repo = "AutoKeyboardLayout.spoon"
 pitch = "every app gets its keyboard layout when it comes to the front; your second layout in any Telegram client"
 
+[[group.item]]
+emoji = "🔖"
+name = "BrowserTabOpener"
+repo = "BrowserTabOpener.spoon"
+pitch = "one key for a site: jump to its open tab, cycle through them, open it if there is none"
+
 [[group]]
 title = "Forks I build and ship to myself"
 

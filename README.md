@@ -27,6 +27,7 @@ brew tap servitola/tap
 - ✨ **[ScreenGlow](https://github.com/servitola/ScreenGlow.spoon#readme)** - the screen edges glow while an AI agent drives your Mac
 - 🖼️ **[Fresh4kWallpaper](https://github.com/servitola/Fresh4kWallpaper.spoon#readme)** - a new 4K wallpaper every time Hammerspoon starts; one file on disk, no GitHub token
 - 🌐 **[AutoKeyboardLayout](https://github.com/servitola/AutoKeyboardLayout.spoon#readme)** - every app gets its keyboard layout when it comes to the front; your second layout in any Telegram client
+- 🔖 **[BrowserTabOpener](https://github.com/servitola/BrowserTabOpener.spoon#readme)** - one key for a site: jump to its open tab, cycle through them, open it if there is none
 
 ### Forks I build and ship to myself
 
