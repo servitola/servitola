@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [scripts/**, .github/workflows/update.yml]
+    paths: [scripts/**, projects.toml, .github/workflows/update.yml]
 
 permissions:
   contents: write
@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python3 scripts/update_tap.py
+      - run: python3 scripts/build_readme.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit if changed

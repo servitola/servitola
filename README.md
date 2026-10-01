@@ -1,47 +1,48 @@
-### Hi, I'm Adik 👋
+# Hi, I'm Adik 👋
 
-Senior mobile fintech engineer in Cyprus. By day — trading apps. The rest of the time I bend macOS
-to my hands, teach AI agents to do my chores, and play guitar.
+📍 **Cyprus** | 📱 **Mobile fintech, trading apps by day** | 🍏 **Bending macOS to my hands the rest of the time**
 
-## Map of what I build
+I build small Mac apps and command-line tools, keep my own builds of the apps I live in, and teach AI agents to do my chores.
+Everything with a `brew install` line below comes from one tap, signed and rebuilt by a script:
 
-**🖥 macOS apps and tools**
-- [polaska](https://github.com/servitola/polaska) — a glass tab strip pinned under your browser window; replaces Chromium's tab bar with real Liquid Glass
-- [claude_counter](https://github.com/servitola/claude_counter) — Claude.ai usage in the menu bar: 5-hour window, reset timer, weekly %; ~14 MB idle
-- [nowplayingseek](https://github.com/servitola/nowplayingseek) — skip ±10 s in whatever is playing, from a hotkey, a keyboard knob or a script
-- [yt-dlp-puzzle-movies](https://github.com/servitola/yt-dlp-puzzle-movies) — yt-dlp plugin
+```sh
+brew tap servitola/tap
+```
 
-**🔨 Hammerspoon Spoons**
-- [PowerWindows.spoon](https://github.com/servitola/PowerWindows.spoon) — every window in its place, one key: big window left, chat column right, video in the corner
-- [BirmanLayer.spoon](https://github.com/servitola/BirmanLayer.spoon) — Ilya Birman's typographic layer on the right Option key, over Apple's layouts
+## What I build
 
-**🍴 Forks I build and ship to myself**
-- [transmission](https://github.com/servitola/transmission) — Transmission with a native Liquid Glass UI for macOS 26
-- [VoiceInk](https://github.com/servitola/VoiceInk) · [boring-notch](https://github.com/servitola/boring-notch) · [zen-browser](https://github.com/servitola/zen-browser) · [zap-terminal](https://github.com/servitola/zap-terminal) — personal patches, nightly builds, auto-update off
-- [homebrew-tap](https://github.com/servitola/homebrew-tap) — all of the above as casks and formulae, signed and published by one script
+<!-- catalogue:start -->
+### Apps & tools
 
-**🧰 [dotfiles](https://github.com/servitola/dotfiles) — living with macOS since 2020**
-- Hammerspoon spoons: URL routing between browsers, [window layouts](https://github.com/servitola/PowerWindows.spoon), audio switching, popup translate
-- Karabiner + Hammerspoon hyper key — 24 layers, keyboard maps rendered from config
-- `up` — one command updates 200+ apps and cleans caches
-- 60+ Claude Code skills and agents shared across Claude Code, Codex and Qwen
+- 🪟 **[Polaska](https://github.com/servitola/polaska#readme)** - a glass tab strip pinned under your browser window; replaces Chromium's tab bar with real Liquid Glass
+- 📊 **[Claude Counter](https://github.com/servitola/claude_counter#readme)** - Claude and Codex limits in the menu bar: 5-hour window, time to reset, weekly %<br><sub>`brew install servitola/tap/claude-counter` · 1.2.1 · 2026-10-01</sub>
+- 🎚️ **[eq](https://github.com/servitola/eq#readme)** - system-wide equalizer with no icon and no window: ten bands, a curve per output device<br><sub>`brew install servitola/tap/eq` · 2026.09.30.3 · 2026-09-30</sub>
+- ⏩ **[nowplayingseek](https://github.com/servitola/nowplayingseek#readme)** - skip ±10 s in whatever is playing, from a hotkey, a keyboard knob or a script<br><sub>`brew install servitola/tap/nowplayingseek` · 2026.09.20 · 2026-09-24</sub>
+- 🧩 **[yt-dlp-puzzle-movies](https://github.com/servitola/yt-dlp-puzzle-movies#readme)** - yt-dlp plugin for puzzle-movies.com<br><sub>`brew install servitola/tap/yt-dlp-puzzle-movies` · 2026.09.26 · 2026-09-26</sub>
 
-## Fresh from my tap
+### Hammerspoon Spoons
 
-<!-- tap:start -->
-| Package | Version | What | Updated |
-| --- | --- | --- | --- |
-| [`claude-counter`](https://github.com/servitola/claude_counter#readme) | `1.2.1` | Menu-bar indicator of Claude.ai usage limits | 2026-10-01 |
-| [`forkgram`](https://github.com/forkgram/tdesktop#readme) | `7.2.10` | Telegram Desktop (Forkgram base) with personal patches | 2026-10-01 |
-| [`eq`](https://github.com/servitola/eq#readme) | `2026.09.30.3` | Headless per-device system equalizer, no icon, no window | 2026-09-30 |
-| [`alt-tab-community`](https://github.com/servitola/alt-tab-community#readme) | `11.8.0.1` | Windows-like alt-tab, with every former Pro feature free | 2026-09-29 |
-| [`boring-notch`](https://github.com/servitola/boring-notch#readme) | `2.7.3-20260928.b5eeb5a` | Notch companion, personal fork built nightly from TheBoredTeam/boring.notch | 2026-09-28 |
-| [`zap-terminal`](https://github.com/servitola/zap-terminal#readme) | `0.1.0-20260928.8954864` | Terminal with AI and agent support, open-source Warp fork, nightly build | 2026-09-27 |
-| [`zen`](https://github.com/servitola/zen-browser#readme) | `1.22.3b-20260927.ca522d4` | Web browser built weekly from source with auto-update disabled | 2026-09-27 |
-| [`voiceink`](https://github.com/servitola/VoiceInk#readme) | `2.20-20260926.2beff03` | Voice to text app, personal fork built nightly from Beingpax/VoiceInk | 2026-09-26 |
-<!-- tap:end -->
+- 🗂️ **[PowerWindows](https://github.com/servitola/PowerWindows.spoon#readme)** - every window in its place, one key: big window left, chat column right, video in the corner
+- ⌨️ **[BirmanLayer](https://github.com/servitola/BirmanLayer.spoon#readme)** - Ilya Birman's typographic layer on the right Option key, over Apple's layouts
+- ✨ **[ScreenGlow](https://github.com/servitola/ScreenGlow.spoon#readme)** - the screen edges glow while an AI agent drives your Mac
 
-<sub>Refreshed daily by a GitHub Action from [homebrew-tap](https://github.com/servitola/homebrew-tap).</sub>
+### Forks I build and ship to myself
+
+- 🌊 **[Transmission Liquid Glass](https://github.com/servitola/transmission#readme)** - fork of [Transmission](https://github.com/transmission/transmission): native Liquid Glass UI for macOS 26<br><sub>`brew install servitola/tap/transmission` · 4.2.0 · 2026-09-11</sub>
+- 🔀 **[AltTab Community](https://github.com/servitola/alt-tab-community#readme)** - fork of [AltTab](https://github.com/lwouis/alt-tab-macos): every former Pro feature free, every upstream release merged, notarized<br><sub>`brew install servitola/tap/alt-tab-community` · 11.8.0.1 · 2026-09-29</sub>
+- 🎙️ **[VoiceInk](https://github.com/servitola/VoiceInk#readme)** - fork of [VoiceInk](https://github.com/Beingpax/VoiceInk): personal patches, built nightly<br><sub>`brew install servitola/tap/voiceink` · 2.20 · 2026-09-26</sub>
+- 🏝️ **[Boring Notch](https://github.com/servitola/boring-notch#readme)** - fork of [boring.notch](https://github.com/TheBoredTeam/boring.notch): one patch, built nightly, auto-update off<br><sub>`brew install servitola/tap/boring-notch` · 2.7.3 · 2026-09-28</sub>
+- 🧘 **[Zen Browser](https://github.com/servitola/zen-browser#readme)** - [Zen](https://github.com/zen-browser/desktop) built weekly from source, unpatched, auto-update off<br><sub>`brew install servitola/tap/zen` · 1.22.3b · 2026-09-27</sub>
+- ⚡ **[Zap](https://github.com/servitola/zap-terminal#readme)** - [Zap](https://github.com/zerx-lab/zap), the open-source Warp fork, built nightly from source, unpatched<br><sub>`brew install servitola/tap/zap-terminal` · 0.1.0 · 2026-09-27</sub>
+- ✈️ **Forkgram** - Telegram Desktop on the [Forkgram](https://github.com/forkgram/tdesktop) base with personal patches; a private build
+
+### Setup
+
+- 🧰 **[dotfiles](https://github.com/servitola/dotfiles#readme)** - living with macOS since 2020: a Karabiner + Hammerspoon hyper key with 24 layers, `up` to update 200+ apps, 60+ Claude Code skills shared with Codex and Qwen
+- 🍺 **[homebrew-tap](https://github.com/servitola/homebrew-tap#readme)** - the tap behind every `brew install` line above: signed casks and formulae, published by one script
+<!-- catalogue:end -->
+
+<sub>Versions and dates are refreshed daily by a GitHub Action from [homebrew-tap](https://github.com/servitola/homebrew-tap).</sub>
 
 ## Beyond code
 

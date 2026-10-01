@@ -1,0 +1,127 @@
+# The catalogue in README.md is built from this file by scripts/build_readme.py.
+# `tap` is the package's name in servitola/homebrew-tap; version and date come from there.
+
+hidden = ["glasswings", "forkgram"]
+
+[[group]]
+title = "Apps & tools"
+
+[[group.item]]
+emoji = "🪟"
+name = "Polaska"
+repo = "polaska"
+pitch = "a glass tab strip pinned under your browser window; replaces Chromium's tab bar with real Liquid Glass"
+
+[[group.item]]
+emoji = "📊"
+name = "Claude Counter"
+repo = "claude_counter"
+tap = "claude-counter"
+pitch = "Claude and Codex limits in the menu bar: 5-hour window, time to reset, weekly %"
+
+[[group.item]]
+emoji = "🎚️"
+name = "eq"
+repo = "eq"
+tap = "eq"
+pitch = "system-wide equalizer with no icon and no window: ten bands, a curve per output device"
+
+[[group.item]]
+emoji = "⏩"
+name = "nowplayingseek"
+repo = "nowplayingseek"
+tap = "nowplayingseek"
+pitch = "skip ±10 s in whatever is playing, from a hotkey, a keyboard knob or a script"
+
+[[group.item]]
+emoji = "🧩"
+name = "yt-dlp-puzzle-movies"
+repo = "yt-dlp-puzzle-movies"
+tap = "yt-dlp-puzzle-movies"
+pitch = "yt-dlp plugin for puzzle-movies.com"
+
+[[group]]
+title = "Hammerspoon Spoons"
+
+[[group.item]]
+emoji = "🗂️"
+name = "PowerWindows"
+repo = "PowerWindows.spoon"
+pitch = "every window in its place, one key: big window left, chat column right, video in the corner"
+
+[[group.item]]
+emoji = "⌨️"
+name = "BirmanLayer"
+repo = "BirmanLayer.spoon"
+pitch = "Ilya Birman's typographic layer on the right Option key, over Apple's layouts"
+
+[[group.item]]
+emoji = "✨"
+name = "ScreenGlow"
+repo = "ScreenGlow.spoon"
+pitch = "the screen edges glow while an AI agent drives your Mac"
+
+[[group]]
+title = "Forks I build and ship to myself"
+
+[[group.item]]
+emoji = "🌊"
+name = "Transmission Liquid Glass"
+repo = "transmission"
+tap = "transmission"
+pitch = "fork of [Transmission](https://github.com/transmission/transmission): native Liquid Glass UI for macOS 26"
+
+[[group.item]]
+emoji = "🔀"
+name = "AltTab Community"
+repo = "alt-tab-community"
+tap = "alt-tab-community"
+pitch = "fork of [AltTab](https://github.com/lwouis/alt-tab-macos): every former Pro feature free, every upstream release merged, notarized"
+
+[[group.item]]
+emoji = "🎙️"
+name = "VoiceInk"
+repo = "VoiceInk"
+tap = "voiceink"
+pitch = "fork of [VoiceInk](https://github.com/Beingpax/VoiceInk): personal patches, built nightly"
+
+[[group.item]]
+emoji = "🏝️"
+name = "Boring Notch"
+repo = "boring-notch"
+tap = "boring-notch"
+pitch = "fork of [boring.notch](https://github.com/TheBoredTeam/boring.notch): one patch, built nightly, auto-update off"
+
+[[group.item]]
+emoji = "🧘"
+name = "Zen Browser"
+repo = "zen-browser"
+tap = "zen"
+pitch = "[Zen](https://github.com/zen-browser/desktop) built weekly from source, unpatched, auto-update off"
+
+[[group.item]]
+emoji = "⚡"
+name = "Zap"
+repo = "zap-terminal"
+tap = "zap-terminal"
+pitch = "[Zap](https://github.com/zerx-lab/zap), the open-source Warp fork, built nightly from source, unpatched"
+
+[[group.item]]
+emoji = "✈️"
+name = "Forkgram"
+pitch = "Telegram Desktop on the [Forkgram](https://github.com/forkgram/tdesktop) base with personal patches; a private build"
+
+[[group]]
+title = "Setup"
+
+[[group.item]]
+emoji = "🧰"
+name = "dotfiles"
+repo = "dotfiles"
+pitch = "living with macOS since 2020: a Karabiner + Hammerspoon hyper key with 24 layers, `up` to update 200+ apps, 60+ Claude Code skills shared with Codex and Qwen"
+
+[[group.item]]
+emoji = "🍺"
+name = "homebrew-tap"
+repo = "homebrew-tap"
+pitch = "the tap behind every `brew install` line above: signed casks and formulae, published by one script"
