@@ -25,13 +25,14 @@ brew tap servitola/tap
 - 🗂️ **[PowerWindows](https://github.com/servitola/PowerWindows.spoon#readme)** - every window in its place, one key: big window left, chat column right, video in the corner
 - ⌨️ **[BirmanLayer](https://github.com/servitola/BirmanLayer.spoon#readme)** - Ilya Birman's typographic layer on the right Option key, over Apple's layouts
 - ✨ **[ScreenGlow](https://github.com/servitola/ScreenGlow.spoon#readme)** - the screen edges glow while an AI agent drives your Mac
+- 🖼️ **[Fresh4kWallpaper](https://github.com/servitola/Fresh4kWallpaper.spoon#readme)** - a new 4K wallpaper every time Hammerspoon starts; one file on disk, no GitHub token
 
 ### Forks I build and ship to myself
 
 - 🌊 **[Transmission Liquid Glass](https://github.com/servitola/transmission#readme)** - fork of [Transmission](https://github.com/transmission/transmission): native Liquid Glass UI for macOS 26<br><sub>`brew install servitola/tap/transmission` · 4.2.0 · 2026-09-11</sub>
 - 🔀 **[AltTab Community](https://github.com/servitola/alt-tab-community#readme)** - fork of [AltTab](https://github.com/lwouis/alt-tab-macos): every former Pro feature free, every upstream release merged, notarized<br><sub>`brew install servitola/tap/alt-tab-community` · 11.8.0.1 · 2026-09-29</sub>
 - 🎙️ **[VoiceInk](https://github.com/servitola/VoiceInk#readme)** - fork of [VoiceInk](https://github.com/Beingpax/VoiceInk): personal patches, built nightly<br><sub>`brew install servitola/tap/voiceink` · 2.20 · 2026-09-26</sub>
-- 🏝️ **[Boring Notch](https://github.com/servitola/boring-notch#readme)** - fork of [boring.notch](https://github.com/TheBoredTeam/boring.notch): one patch, built nightly, auto-update off<br><sub>`brew install servitola/tap/boring-notch` · 2.7.3 · 2026-09-28</sub>
+- 🏝️ **[Boring Notch](https://github.com/servitola/boring-notch#readme)** - fork of [boring.notch](https://github.com/TheBoredTeam/boring.notch): one patch, built nightly, auto-update off<br><sub>`brew install servitola/tap/boring-notch` · 2.7.3 · 2026-10-01</sub>
 - 🧘 **[Zen Browser](https://github.com/servitola/zen-browser#readme)** - [Zen](https://github.com/zen-browser/desktop) built weekly from source, unpatched, auto-update off<br><sub>`brew install servitola/tap/zen` · 1.22.3b · 2026-09-27</sub>
 - ⚡ **[Zap](https://github.com/servitola/zap-terminal#readme)** - [Zap](https://github.com/zerx-lab/zap), the open-source Warp fork, built nightly from source, unpatched<br><sub>`brew install servitola/tap/zap-terminal` · 0.1.0 · 2026-09-27</sub>
 - ✈️ **Forkgram** - Telegram Desktop on the [Forkgram](https://github.com/forkgram/tdesktop) base with personal patches; a private build

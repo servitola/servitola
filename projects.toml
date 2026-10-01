@@ -61,6 +61,12 @@ name = "ScreenGlow"
 repo = "ScreenGlow.spoon"
 pitch = "the screen edges glow while an AI agent drives your Mac"
 
+[[group.item]]
+emoji = "🖼️"
+name = "Fresh4kWallpaper"
+repo = "Fresh4kWallpaper.spoon"
+pitch = "a new 4K wallpaper every time Hammerspoon starts; one file on disk, no GitHub token"
+
 [[group]]
 title = "Forks I build and ship to myself"
 
