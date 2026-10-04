@@ -1,7 +1,7 @@
 # The catalogue in README.md is built from this file by scripts/build_readme.py.
 # `tap` is the package's name in servitola/homebrew-tap; version and date come from there.
 
-hidden = ["glasswings", "forkgram"]
+hidden = ["glasswings", "forkgram", "hammerspoon", "polaska"]
 
 [[group]]
 title = "Apps & tools"
