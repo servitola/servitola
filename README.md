@@ -17,7 +17,7 @@ brew tap servitola/tap
 - 🪟 **[Polaska](https://github.com/servitola/polaska#readme)** - a glass tab strip pinned under your browser window; replaces Chromium's tab bar with real Liquid Glass
 - 📊 **[Claude Counter](https://github.com/servitola/claude_counter#readme)** - Claude and Codex limits in the menu bar: 5-hour window, time to reset, weekly %<br><sub>`brew install servitola/tap/claude-counter` · 1.3.0 · 2026-10-01</sub>
 - 🎚️ **[eq](https://github.com/servitola/eq#readme)** - system-wide equalizer with no icon and no window: ten bands, a curve per output device<br><sub>`brew install servitola/tap/eq` · 2026.09.30.3 · 2026-09-30</sub>
-- ⏩ **[nowplayingseek](https://github.com/servitola/nowplayingseek#readme)** - seek whatever is playing: ±10 s from a hotkey or a script, 5 s a click from a keyboard knob<br><sub>`brew install servitola/tap/nowplayingseek` · 2026.10.04 · 2026-10-04</sub>
+- ⏩ **[nowplayingseek](https://github.com/servitola/nowplayingseek#readme)** - skip ±5 s in whatever is playing, from a hotkey, a keyboard knob or a script<br><sub>`brew install servitola/tap/nowplayingseek` · 2026.10.04.1 · 2026-10-04</sub>
 - 🧩 **[yt-dlp-puzzle-movies](https://github.com/servitola/yt-dlp-puzzle-movies#readme)** - yt-dlp plugin for puzzle-movies.com<br><sub>`brew install servitola/tap/yt-dlp-puzzle-movies` · 2026.09.26 · 2026-09-26</sub>
 
 ### Hammerspoon Spoons
