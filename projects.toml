@@ -31,7 +31,7 @@ emoji = "⏩"
 name = "nowplayingseek"
 repo = "nowplayingseek"
 tap = "nowplayingseek"
-pitch = "skip ±10 s in whatever is playing, from a hotkey, a keyboard knob or a script"
+pitch = "seek whatever is playing: ±10 s from a hotkey or a script, 5 s a click from a keyboard knob"
 
 [[group.item]]
 emoji = "🧩"
