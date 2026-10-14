@@ -32,7 +32,7 @@ brew tap servitola/tap
 ### Forks I build and ship to myself
 
 - 🌊 **[Transmission Liquid Glass](https://github.com/servitola/transmission#readme)** - fork of [Transmission](https://github.com/transmission/transmission): native Liquid Glass UI for macOS 26<br><sub>`brew install servitola/tap/transmission` · 4.2.0 · 2026-09-11</sub>
-- 🔀 **[AltTab Community](https://github.com/servitola/alt-tab-community#readme)** - fork of [AltTab](https://github.com/lwouis/alt-tab-macos): every former Pro feature free, every upstream release merged, notarized<br><sub>`brew install servitola/tap/alt-tab-community` · 11.8.0.1 · 2026-09-29</sub>
+- 🔀 **[AltTab Community](https://github.com/servitola/alt-tab-community#readme)** - fork of [AltTab](https://github.com/lwouis/alt-tab-macos): every former Pro feature free, every upstream release merged, notarized<br><sub>`brew install servitola/tap/alt-tab-community` · 11.9.1 · 2026-10-14</sub>
 - 🎙️ **[VoiceInk](https://github.com/servitola/VoiceInk#readme)** - fork of [VoiceInk](https://github.com/Beingpax/VoiceInk): personal patches, built nightly<br><sub>`brew install servitola/tap/voiceink` · 2.21 · 2026-10-02</sub>
 - 🏝️ **[Boring Notch](https://github.com/servitola/boring-notch#readme)** - fork of [boring.notch](https://github.com/TheBoredTeam/boring.notch): one patch, built nightly, auto-update off<br><sub>`brew install servitola/tap/boring-notch` · 2.7.3 · 2026-10-12</sub>
 - 🧘 **[Zen Browser](https://github.com/servitola/zen-browser#readme)** - [Zen](https://github.com/zen-browser/desktop) built weekly from source, unpatched, auto-update off<br><sub>`brew install servitola/tap/zen` · 1.23b · 2026-10-04</sub>
