@@ -35,7 +35,7 @@ brew tap servitola/tap
 - 🔀 **[AltTab Community](https://github.com/servitola/alt-tab-community#readme)** - fork of [AltTab](https://github.com/lwouis/alt-tab-macos): every former Pro feature free, every upstream release merged, notarized<br><sub>`brew install servitola/tap/alt-tab-community` · 11.10.1 · 2026-11-06</sub>
 - 🎙️ **[VoiceInk](https://github.com/servitola/VoiceInk#readme)** - fork of [VoiceInk](https://github.com/Beingpax/VoiceInk): personal patches, built nightly<br><sub>`brew install servitola/tap/voiceink` · 2.22 · 2026-11-03</sub>
 - 🏝️ **[Boring Notch](https://github.com/servitola/boring-notch#readme)** - fork of [boring.notch](https://github.com/TheBoredTeam/boring.notch): one patch, built nightly, auto-update off<br><sub>`brew install servitola/tap/boring-notch` · 2.7.3 · 2026-11-02</sub>
-- 🧘 **[Zen Browser](https://github.com/servitola/zen-browser#readme)** - [Zen](https://github.com/zen-browser/desktop) built weekly from source, unpatched, auto-update off<br><sub>`brew install servitola/tap/zen` · 1.24b · 2026-11-03</sub>
+- 🧘 **[Zen Browser](https://github.com/servitola/zen-browser#readme)** - [Zen](https://github.com/zen-browser/desktop) built weekly from source, unpatched, auto-update off<br><sub>`brew install servitola/tap/zen` · 1.24.1b · 2026-11-07</sub>
 - ⚡ **[Zap](https://github.com/servitola/zap-terminal#readme)** - [Zap](https://github.com/zerx-lab/zap), the open-source Warp fork, built nightly from source, unpatched<br><sub>`brew install servitola/tap/zap-terminal` · 0.1.0 · 2026-09-27</sub>
 - ✈️ **Forkgram** - Telegram Desktop on the [Forkgram](https://github.com/forkgram/tdesktop) base with personal patches; a private build
 
